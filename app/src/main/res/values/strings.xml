@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Student Register</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">About</string>
+
+    <string name="AddFragmentTitle">Add a Student</string>
+    <string name="SearchStudentTitle">Search Students</string>
+    <string name="AllStudentTitle">All Students</string>
+
+
+</resources>

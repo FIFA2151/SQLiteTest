@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.test.sqlitetest.SearchFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/SearchStudentTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:fontFamily="casual"
+        android:typeface="monospace"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:lineSpacingExtra="12sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true" />
+    <TextView
+            android:text="Keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="46dp"
+            android:id="@+id/keyword_text_view"
+            />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignTop="@+id/keyword_text_view"
+            android:layout_toEndOf="@+id/keyword_text_view"
+            android:layout_alignBaseline="@id/keyword_text_view"
+            android:layout_marginStart="11dp"
+            android:id="@+id/keyword"
+            android:selectAllOnFocus="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:text="Search Results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/keyword"
+            android:layout_alignStart="@+id/keyword_text_view"
+            android:layout_marginTop="18dp"
+            android:id="@+id/results_text_view"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="sans-serif"
+            android:typeface="monospace"
+            android:textSize="18sp"
+            android:textAlignment="viewStart" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/search_list_view"
+            android:layout_below="@+id/results_text_view"
+            android:layout_alignStart="@+id/results_text_view"
+            android:layout_marginTop="13dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

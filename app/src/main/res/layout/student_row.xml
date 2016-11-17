@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="ID>"
+        android:textColor="@android:color/black"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignBaseline="@id/ID"
+        android:layout_alignBottom="@+id/ID"
+        android:layout_toEndOf="@+id/ID"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/fab_margin" />
+
+    <TextView
+        android:id="@+id/rollnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Number"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:textStyle="normal|italic"
+        tools:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" />
+</RelativeLayout>

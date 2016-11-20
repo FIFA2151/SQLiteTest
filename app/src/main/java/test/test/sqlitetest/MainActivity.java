@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_add) {
             fragment = new AddFragment();
         } else if (id == R.id.nav_search) {
-            fragment = new SearchFragment();
+            fragment = new SearchViewFragment();
         } else if (id == R.id.nav_show) {
             fragment = new AllStudentsFragment();
         } else if (id == R.id.nav_home) {

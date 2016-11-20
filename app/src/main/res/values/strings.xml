@@ -10,5 +10,8 @@
     <string name="SearchStudentTitle">Search Students</string>
     <string name="AllStudentTitle">All Students</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
